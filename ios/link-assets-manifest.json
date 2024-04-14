@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Debrosee-ALPnL.ttf",
+      "sha1": "4a876c7ba236eeb2e93ad09e1949da1bae6c0fd8"
+    },
+    {
+      "path": "src/assets/fonts/Exo-VariableFont_wght.ttf",
+      "sha1": "455e4da920912c56652f6080648768852943661b"
+    },
+    {
+      "path": "src/assets/fonts/One.ttf",
+      "sha1": "3a4f50ed3543a0d3291ef171aeee5408072559bd"
+    },
+    {
+      "path": "src/assets/fonts/Stanley Park.otf",
+      "sha1": "9684b6fb9f5c8c5d7cd9615c44d615929e4f9f94"
+    },
+    {
+      "path": "src/assets/fonts/two.ttf",
+      "sha1": "febaeb3ad737aae56f4db17b1303471a305872a5"
+    }
+  ]
+}

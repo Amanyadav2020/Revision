@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Revision-RevisionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Revision-RevisionTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		319B9F2F72AC467088327B84 /* two.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C209797B58406D9FA1BF65 /* two.ttf */; };
+		9E0B6F45420F41D38742A23D /* Exo-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 856AA8607C2141EAAB8CF8A2 /* Exo-VariableFont_wght.ttf */; };
+		EF491F599B594831A7880C99 /* One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03175E4F3F784234B821452E /* One.ttf */; };
+		234A9083FFA84D6D80F8D52B /* Stanley Park.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF273F9D06C41E3B1141415 /* Stanley Park.otf */; };
+		72BA934F97B3428280A325FD /* Debrosee-ALPnL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4636CCF59924212B419AFCB /* Debrosee-ALPnL.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Revision/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Revision-RevisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revision-RevisionTests.release.xcconfig"; path = "Target Support Files/Pods-Revision-RevisionTests/Pods-Revision-RevisionTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		25C209797B58406D9FA1BF65 /* two.ttf */ = {isa = PBXFileReference; name = "two.ttf"; path = "../src/assets/fonts/two.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		856AA8607C2141EAAB8CF8A2 /* Exo-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Exo-VariableFont_wght.ttf"; path = "../src/assets/fonts/Exo-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03175E4F3F784234B821452E /* One.ttf */ = {isa = PBXFileReference; name = "One.ttf"; path = "../src/assets/fonts/One.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8BF273F9D06C41E3B1141415 /* Stanley Park.otf */ = {isa = PBXFileReference; name = "Stanley Park.otf"; path = "../src/assets/fonts/Stanley Park.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4636CCF59924212B419AFCB /* Debrosee-ALPnL.ttf */ = {isa = PBXFileReference; name = "Debrosee-ALPnL.ttf"; path = "../src/assets/fonts/Debrosee-ALPnL.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				DFA60B00D45548829236EBA3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		DFA60B00D45548829236EBA3 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				25C209797B58406D9FA1BF65 /* two.ttf */,
+				856AA8607C2141EAAB8CF8A2 /* Exo-VariableFont_wght.ttf */,
+				03175E4F3F784234B821452E /* One.ttf */,
+				8BF273F9D06C41E3B1141415 /* Stanley Park.otf */,
+				F4636CCF59924212B419AFCB /* Debrosee-ALPnL.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +267,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				319B9F2F72AC467088327B84 /* two.ttf in Resources */,
+				9E0B6F45420F41D38742A23D /* Exo-VariableFont_wght.ttf in Resources */,
+				EF491F599B594831A7880C99 /* One.ttf in Resources */,
+				234A9083FFA84D6D80F8D52B /* Stanley Park.otf in Resources */,
+				72BA934F97B3428280A325FD /* Debrosee-ALPnL.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
